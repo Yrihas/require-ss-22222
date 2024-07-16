@@ -1,0 +1,2051 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local scripts2 = Instance.new("Frame")
+local By = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Scripts = Instance.new("TextButton")
+local DOWN = Instance.new("TextButton")
+local SSrequire = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local jumpstyle3 = Instance.new("TextButton")
+local feall = Instance.new("TextButton")
+local nootnoot = Instance.new("TextButton")
+local explodeall = Instance.new("TextButton")
+local JumpscareFE = Instance.new("TextButton")
+local AntiLeave = Instance.new("TextButton")
+local Decalskyboxparticlesspam = Instance.new("TextButton")
+local tptorealm = Instance.new("TextButton")
+local bloodpop = Instance.new("TextButton")
+local jumpstyle = Instance.new("TextButton")
+local jumpstyle2 = Instance.new("TextButton")
+local funnisound = Instance.new("TextButton")
+local ultimate = Instance.new("TextButton")
+local ImageButton = Instance.new("ImageButton")
+local BYPASSED = Instance.new("TextButton")
+local donpollo = Instance.new("TextButton")
+local textdown = Instance.new("TextButton")
+local stopmusic = Instance.new("TextButton")
+local R6 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UIAspectRatioConstraint.Parent = ScreenGui
+UIAspectRatioConstraint.AspectRatio = 1.349
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.20904839, 0, 0.19607842, 0)
+Frame.Size = UDim2.new(0.639625549, 0, 0.607843161, 0)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+scripts2.Name = "scripts 2"
+scripts2.Parent = Frame
+scripts2.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+scripts2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scripts2.BorderSizePixel = 5
+scripts2.Position = UDim2.new(0.0130212996, 0, 0.414334327, 0)
+scripts2.Size = UDim2.new(0.971951246, 0, 0.493793488, 0)
+
+By.Name = "By"
+By.Parent = Frame
+By.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+By.BorderColor3 = Color3.fromRGB(0, 0, 0)
+By.BorderSizePixel = 0
+By.Position = UDim2.new(0.606576443, 0, 0.936867416, 0)
+By.Size = UDim2.new(0.378046662, 0, 0.06313245, 0)
+By.Font = Enum.Font.SciFi
+By.Text = "By m00rkidd"
+By.TextColor3 = Color3.fromRGB(0, 0, 0)
+By.TextScaled = true
+By.TextSize = 14.000
+By.TextWrapped = true
+
+UICorner_2.Parent = By
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Frame
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BorderSizePixel = 5
+Scripts.Position = UDim2.new(0.0152651286, 0, 0.278858334, 0)
+Scripts.Size = UDim2.new(0.253636152, 0, 0.100173898, 0)
+Scripts.Font = Enum.Font.Michroma
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextScaled = true
+Scripts.TextSize = 14.000
+Scripts.TextWrapped = true
+
+DOWN.Name = "DOWN"
+DOWN.Parent = Frame
+DOWN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DOWN.BackgroundTransparency = 1.000
+DOWN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DOWN.BorderSizePixel = 0
+DOWN.Position = UDim2.new(0.281455278, 0, 0.216714069, 0)
+DOWN.Size = UDim2.new(0.102184087, 0, 0.19793649, 0)
+DOWN.Font = Enum.Font.SourceSans
+DOWN.Text = "↓"
+DOWN.TextColor3 = Color3.fromRGB(0, 0, 0)
+DOWN.TextScaled = true
+DOWN.TextSize = 14.000
+DOWN.TextWrapped = true
+
+SSrequire.Name = "SS require"
+SSrequire.Parent = Frame
+SSrequire.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SSrequire.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SSrequire.BorderSizePixel = 5
+SSrequire.Position = UDim2.new(0.0138489921, 0, 0.0212681964, 0)
+SSrequire.Size = UDim2.new(0.369981557, 0, 0.092741929, 0)
+SSrequire.Font = Enum.Font.Michroma
+SSrequire.Text = "SS require"
+SSrequire.TextColor3 = Color3.fromRGB(0, 0, 0)
+SSrequire.TextScaled = true
+SSrequire.TextSize = 14.000
+SSrequire.TextWrapped = true
+
+X.Name = "X"
+X.Parent = Frame
+X.AnchorPoint = Vector2.new(0.5, 0.5)
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BorderColor3 = Color3.fromRGB(27, 42, 53)
+X.BorderSizePixel = 5
+X.Position = UDim2.new(0.0965470374, 0, 0.19920136, 0)
+X.Size = UDim2.new(0.162866324, 0, 0.0875237957, 0)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 56, 56)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+
+UITextSizeConstraint.Parent = X
+UITextSizeConstraint.MaxTextSize = 51
+
+jumpstyle3.Name = "jumpstyle 3"
+jumpstyle3.Parent = Frame
+jumpstyle3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jumpstyle3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpstyle3.BorderSizePixel = 3
+jumpstyle3.Position = UDim2.new(0.837145984, 0, 0.792338669, 0)
+jumpstyle3.Size = UDim2.new(0.116123162, 0, 0.0975648463, 0)
+jumpstyle3.Font = Enum.Font.SourceSans
+jumpstyle3.Text = "jumpstyle 3"
+jumpstyle3.TextColor3 = Color3.fromRGB(0, 0, 0)
+jumpstyle3.TextScaled = true
+jumpstyle3.TextSize = 14.000
+jumpstyle3.TextWrapped = true
+
+feall.Name = "fe all'"
+feall.Parent = Frame
+feall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+feall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+feall.BorderSizePixel = 3
+feall.Position = UDim2.new(0.371652842, 0, 0.441532254, 0)
+feall.Size = UDim2.new(0.0976073667, 0, 0.113693878, 0)
+feall.Font = Enum.Font.SourceSans
+feall.Text = "Fe all"
+feall.TextColor3 = Color3.fromRGB(0, 0, 0)
+feall.TextScaled = true
+feall.TextSize = 14.000
+feall.TextWrapped = true
+
+nootnoot.Name = "noot noot"
+nootnoot.Parent = Frame
+nootnoot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nootnoot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nootnoot.BorderSizePixel = 3
+nootnoot.Position = UDim2.new(0.0254904572, 0, 0.441532254, 0)
+nootnoot.Size = UDim2.new(0.0961912274, 0, 0.113693878, 0)
+nootnoot.Font = Enum.Font.SourceSans
+nootnoot.Text = "Noot Noot"
+nootnoot.TextColor3 = Color3.fromRGB(0, 0, 0)
+nootnoot.TextScaled = true
+nootnoot.TextSize = 14.000
+nootnoot.TextWrapped = true
+
+explodeall.Name = "explode all"
+explodeall.Parent = Frame
+explodeall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+explodeall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+explodeall.BorderSizePixel = 3
+explodeall.Position = UDim2.new(0.141613647, 0, 0.441532254, 0)
+explodeall.Size = UDim2.new(0.0976073667, 0, 0.113693878, 0)
+explodeall.Font = Enum.Font.SourceSans
+explodeall.Text = "Explode all"
+explodeall.TextColor3 = Color3.fromRGB(0, 0, 0)
+explodeall.TextScaled = true
+explodeall.TextSize = 14.000
+explodeall.TextWrapped = true
+
+JumpscareFE.Name = "Jumpscare FE"
+JumpscareFE.Parent = Frame
+JumpscareFE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpscareFE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpscareFE.BorderSizePixel = 3
+JumpscareFE.Position = UDim2.new(0.486672461, 0, 0.441532254, 0)
+JumpscareFE.Size = UDim2.new(0.0976073667, 0, 0.113693878, 0)
+JumpscareFE.Font = Enum.Font.SourceSans
+JumpscareFE.Text = "Jumpscare FE"
+JumpscareFE.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpscareFE.TextScaled = true
+JumpscareFE.TextSize = 14.000
+JumpscareFE.TextWrapped = true
+
+AntiLeave.Name = "Anti Leave"
+AntiLeave.Parent = Frame
+AntiLeave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiLeave.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AntiLeave.BorderSizePixel = 3
+AntiLeave.Position = UDim2.new(0.256633252, 0, 0.441532254, 0)
+AntiLeave.Size = UDim2.new(0.0976073667, 0, 0.113693878, 0)
+AntiLeave.Font = Enum.Font.SourceSans
+AntiLeave.Text = "Anti Leave"
+AntiLeave.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiLeave.TextScaled = true
+AntiLeave.TextSize = 14.000
+AntiLeave.TextWrapped = true
+
+Decalskyboxparticlesspam.Name = "Decal skybox particles spam"
+Decalskyboxparticlesspam.Parent = Frame
+Decalskyboxparticlesspam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Decalskyboxparticlesspam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Decalskyboxparticlesspam.BorderSizePixel = 3
+Decalskyboxparticlesspam.Position = UDim2.new(0.605951965, 0, 0.441532254, 0)
+Decalskyboxparticlesspam.Size = UDim2.new(0.2665869, 0, 0.113693878, 0)
+Decalskyboxparticlesspam.Font = Enum.Font.SourceSans
+Decalskyboxparticlesspam.Text = "Decal,skybox,particle spam"
+Decalskyboxparticlesspam.TextColor3 = Color3.fromRGB(0, 0, 0)
+Decalskyboxparticlesspam.TextScaled = true
+Decalskyboxparticlesspam.TextSize = 14.000
+Decalskyboxparticlesspam.TextWrapped = true
+
+tptorealm.Name = "tp to realm"
+tptorealm.Parent = Frame
+tptorealm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tptorealm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tptorealm.BorderSizePixel = 3
+tptorealm.Position = UDim2.new(0.885691166, 0, 0.441532254, 0)
+tptorealm.Size = UDim2.new(0.0976073667, 0, 0.113693878, 0)
+tptorealm.Font = Enum.Font.SourceSans
+tptorealm.Text = "tp to realm"
+tptorealm.TextColor3 = Color3.fromRGB(0, 0, 0)
+tptorealm.TextScaled = true
+tptorealm.TextSize = 14.000
+tptorealm.TextWrapped = true
+
+bloodpop.Name = "bloodpop"
+bloodpop.Parent = Frame
+bloodpop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bloodpop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bloodpop.BorderSizePixel = 3
+bloodpop.Position = UDim2.new(0.025490433, 0, 0.792338669, 0)
+bloodpop.Size = UDim2.new(0.116123162, 0, 0.0975648463, 0)
+bloodpop.Font = Enum.Font.SourceSans
+bloodpop.Text = "bloodpop music"
+bloodpop.TextColor3 = Color3.fromRGB(0, 0, 0)
+bloodpop.TextScaled = true
+bloodpop.TextSize = 14.000
+bloodpop.TextWrapped = true
+
+jumpstyle.Name = "jumpstyle"
+jumpstyle.Parent = Frame
+jumpstyle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jumpstyle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpstyle.BorderSizePixel = 3
+jumpstyle.Position = UDim2.new(0.164840922, 0, 0.792338669, 0)
+jumpstyle.Size = UDim2.new(0.116123162, 0, 0.0975648463, 0)
+jumpstyle.Font = Enum.Font.SourceSans
+jumpstyle.Text = "jumpstyle"
+jumpstyle.TextColor3 = Color3.fromRGB(0, 0, 0)
+jumpstyle.TextScaled = true
+jumpstyle.TextSize = 14.000
+jumpstyle.TextWrapped = true
+
+jumpstyle2.Name = "jumpstyle 2"
+jumpstyle2.Parent = Frame
+jumpstyle2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jumpstyle2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpstyle2.BorderSizePixel = 3
+jumpstyle2.Position = UDim2.new(0.299301982, 0, 0.792338669, 0)
+jumpstyle2.Size = UDim2.new(0.116123162, 0, 0.0975648463, 0)
+jumpstyle2.Font = Enum.Font.SourceSans
+jumpstyle2.Text = "jumpstyle 2"
+jumpstyle2.TextColor3 = Color3.fromRGB(0, 0, 0)
+jumpstyle2.TextScaled = true
+jumpstyle2.TextSize = 14.000
+jumpstyle2.TextWrapped = true
+
+funnisound.Name = "funni sound"
+funnisound.Parent = Frame
+funnisound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+funnisound.BorderColor3 = Color3.fromRGB(0, 0, 0)
+funnisound.BorderSizePixel = 3
+funnisound.Position = UDim2.new(0.439874828, 0, 0.792338669, 0)
+funnisound.Size = UDim2.new(0.116123162, 0, 0.0975648463, 0)
+funnisound.Font = Enum.Font.SourceSans
+funnisound.Text = "funni sound"
+funnisound.TextColor3 = Color3.fromRGB(0, 0, 0)
+funnisound.TextScaled = true
+funnisound.TextSize = 14.000
+funnisound.TextWrapped = true
+
+ultimate.Name = "ultimate"
+ultimate.Parent = Frame
+ultimate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ultimate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ultimate.BorderSizePixel = 3
+ultimate.Position = UDim2.new(0.0239184126, 0, 0.580645144, 0)
+ultimate.Size = UDim2.new(0.0976073667, 0, 0.113693878, 0)
+ultimate.Font = Enum.Font.SourceSans
+ultimate.Text = "skybox"
+ultimate.TextColor3 = Color3.fromRGB(0, 0, 0)
+ultimate.TextScaled = true
+ultimate.TextSize = 14.000
+ultimate.TextWrapped = true
+
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderColor3 = Color3.fromRGB(10, 10, 10)
+ImageButton.BorderSizePixel = 5
+ImageButton.Position = UDim2.new(0.735230684, 0, 0.0212681666, 0)
+ImageButton.Size = UDim2.new(0.247685075, 0, 0.355747998, 0)
+ImageButton.Image = "http://www.roblox.com/asset/?id=18213997018"
+
+BYPASSED.Name = "BYPASSED"
+BYPASSED.Parent = Frame
+BYPASSED.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BYPASSED.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BYPASSED.BorderSizePixel = 3
+BYPASSED.Position = UDim2.new(0.567001581, 0, 0.792338669, 0)
+BYPASSED.Size = UDim2.new(0.116123162, 0, 0.0975648463, 0)
+BYPASSED.Font = Enum.Font.SourceSans
+BYPASSED.Text = "BYPASSED AUDIO [MEGA SOUND]"
+BYPASSED.TextColor3 = Color3.fromRGB(0, 0, 0)
+BYPASSED.TextScaled = true
+BYPASSED.TextSize = 14.000
+BYPASSED.TextWrapped = true
+
+donpollo.Name = "don pollo"
+donpollo.Parent = Frame
+donpollo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+donpollo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+donpollo.BorderSizePixel = 3
+donpollo.Position = UDim2.new(0.701462626, 0, 0.792338669, 0)
+donpollo.Size = UDim2.new(0.116123162, 0, 0.0975648463, 0)
+donpollo.Font = Enum.Font.SourceSans
+donpollo.Text = "Don pollo audio [bypassed]"
+donpollo.TextColor3 = Color3.fromRGB(0, 0, 0)
+donpollo.TextScaled = true
+donpollo.TextSize = 14.000
+donpollo.TextWrapped = true
+
+textdown.Name = "text down"
+textdown.Parent = Frame
+textdown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textdown.BackgroundTransparency = 1.000
+textdown.BorderColor3 = Color3.fromRGB(0, 0, 0)
+textdown.BorderSizePixel = 0
+textdown.Position = UDim2.new(0.319039226, 0, 0.673387766, 0)
+textdown.Size = UDim2.new(0.355878651, 0, 0.0935325548, 0)
+textdown.Font = Enum.Font.Unknown
+textdown.Text = "bypassed audios and troll\\n_____________________"
+textdown.TextColor3 = Color3.fromRGB(0, 0, 0)
+textdown.TextScaled = true
+textdown.TextSize = 23.000
+textdown.TextWrapped = true
+
+stopmusic.Name = "stop music"
+stopmusic.Parent = Frame
+stopmusic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+stopmusic.BorderColor3 = Color3.fromRGB(0, 0, 0)
+stopmusic.BorderSizePixel = 3
+stopmusic.Position = UDim2.new(0.414205015, 0, 0.0201613195, 0)
+stopmusic.Size = UDim2.new(0.116123162, 0, 0.0975648463, 0)
+stopmusic.Font = Enum.Font.Michroma
+stopmusic.Text = "Stop music"
+stopmusic.TextColor3 = Color3.fromRGB(0, 0, 0)
+stopmusic.TextScaled = true
+stopmusic.TextSize = 14.000
+stopmusic.TextWrapped = true
+
+R6.Name = "R6"
+R6.Parent = Frame
+R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+R6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+R6.BorderSizePixel = 3
+R6.Position = UDim2.new(0.140740961, 0, 0.580645144, 0)
+R6.Size = UDim2.new(0.0984800532, 0, 0.113693878, 0)
+R6.Font = Enum.Font.SourceSans
+R6.Text = "R6"
+R6.TextColor3 = Color3.fromRGB(0, 0, 0)
+R6.TextScaled = true
+R6.TextSize = 14.000
+R6.TextWrapped = true
+
+-- Scripts:
+
+local function CTPHN_fake_script() -- X.LocalScript 
+	local script = Instance.new('LocalScript', X)
+
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(CTPHN_fake_script)()
+local function SEQZX_fake_script() -- jumpstyle3.LocalScript 
+	local script = Instance.new('LocalScript', jumpstyle3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+	
+		sound.Name = "Sound"
+		sound.SoundId = "rbxassetid://6942391979" --Song
+		sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+		sound.Pitch = 1 --Speed of Playback
+		sound.Looped = true
+		sound.archivable = false
+	
+		sound.Parent = game.Workspace
+	
+		wait(0)
+	
+		sound:play()
+	
+	end)
+end
+coroutine.wrap(SEQZX_fake_script)()
+local function RXJRDND_fake_script() -- feall.LocalScript 
+	local script = Instance.new('LocalScript', feall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local BroadcastMessageEvent = ReplicatedStorage:WaitForChild("BroadcastMessageEvent")
+	
+		-- Function to display the message to the player
+		local function displayMessage(message)
+			local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	
+			-- Create a ScreenGui
+			local screenGui = Instance.new("ScreenGui")
+			screenGui.Parent = playerGui
+	
+			-- Create a TextLabel to display the message
+			local textLabel = Instance.new("TextLabel")
+			textLabel.Size = UDim2.new(0.5, 0, 0.1, 0)
+			textLabel.Position = UDim2.new(0.25, 0, 0.45, 0)
+			textLabel.BackgroundTransparency = 0.5
+			textLabel.Text = message
+			textLabel.TextScaled = true
+			textLabel.Parent = screenGui
+	
+			-- Display the message for 5 seconds
+			wait(5)
+			screenGui:Destroy()
+		end
+	
+		-- Listen for the broadcast message event
+		BroadcastMessageEvent.OnClientEvent:Connect(displayMessage)
+	end)
+end
+coroutine.wrap(RXJRDND_fake_script)()
+local function XBJC_fake_script() -- nootnoot.LocalScript 
+	local script = Instance.new('LocalScript', nootnoot)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--loadstring(game:GetObjects("rbxassetid://382365669")[1].Source)()
+	
+		local msg = Instance.new("Message",workspace)
+		msg.Text = "Created By Davig1995 (Pingu) And 1x0x1x0 (AzuLX). - Noot Noot Script"
+		wait(2)
+		msg:Destroy()
+		pingudecal = "http://www.roblox.com/asset/?id=382332426"
+		local didpingu = false
+		local ScreenGui = Instance.new("ScreenGui",game.Players.LocalPlayer.PlayerGui)
+		ScreenGui.Name = "nooties"
+		local asd = Instance.new("TextButton",ScreenGui)
+		asd.BackgroundColor3 = Color3.new(0,0,0)
+		asd.BorderColor3 = Color3.new(0,0,0)
+		asd.Name = "nooties"
+		asd.Position = UDim2.new(1,-150,1,-90)
+		asd.Size = UDim2.new(0,150,0,45)
+		asd.Font = "SourceSansBold"
+		asd.FontSize = "Size32"
+		asd.Text = "Noot Noot!"
+		asd.TextColor3 = Color3.new(255,255,255)
+		asd.MouseButton1Down:connect(function()
+			if didpingu == false then
+				didpingu = true
+				for i,v in pairs(game.Players:GetChildren()) do
+					if v:IsA("Player") then
+						local nooties = Instance.new("Sound",workspace)
+						nooties.SoundId = "http://www.roblox.com/asset/?id=142912516"
+						nooties.Volume = 1
+						nooties.Looped = true
+						nooties:Play()
+					end 
+				end 
+				wait(12) 
+				local Sky = Instance.new("Sky",game.Lighting) 
+				Sky.SkyboxBk = pingudecal 
+				Sky.SkyboxDn = pingudecal 
+				Sky.SkyboxFt = pingudecal 
+				Sky.SkyboxLf = pingudecal 
+				Sky.SkyboxRt = pingudecal 
+				Sky.SkyboxUp = pingudecal 
+				local function modelasd() 
+					for i,v in pairs(workspace:GetChildren()) do 
+						if v:IsA("Model") then 
+							for i,a in pairs(v:GetChildren()) do 
+								local top = Instance.new("Decal",a) 
+								top.Face = "Top" 
+								top.Texture = pingudecal 
+								local btm = Instance.new("Decal",a) 
+								btm.Face = "Bottom" 
+								btm.Texture = pingudecal 
+								local lft = Instance.new("Decal",a) 
+								lft.Face = "Left" 
+								lft.Texture = pingudecal 
+								local rft = Instance.new("Decal",a) 
+								rft.Face = "Right" 
+								rft.Texture = pingudecal 
+								local frnt = Instance.new("Decal",a) 
+								frnt.Face = "Front" 
+								frnt.Texture = pingudecal 
+								local bk = Instance.new("Decal",a) 
+								bk.Face = "Back" 
+								bk.Texture = pingudecal 
+								local VTest = Instance.new("ParticleEmitter")  
+								VTest.Parent = a 
+								VTest.Texture = pingudecal 
+								VTest.Speed = NumberRange.new(200) 
+								VTest.Rate = 200 
+								VTest.Size = NumberSequence.new(10000,10000) 
+								VTest.Lifetime = NumberRange.new(1000) 
+								local pepe = coroutine.create(function() 
+									while wait() do 
+										local Explosion = Instance.new("Explosion",a) 
+										Explosion.BlastRadius = 10000 
+									end 
+								end) 
+								coroutine.resume(pepe) 
+							end 
+						end 
+					end 
+				end 
+				local function partasd() 
+					for i,a in pairs(workspace:GetChildren()) do 
+						local top = Instance.new("Decal",a) 
+						top.Face = "Top" 
+						top.Texture = pingudecal 
+						local btm = Instance.new("Decal",a) 
+						btm.Face = "Bottom" 
+						btm.Texture = pingudecal 
+						local lft = Instance.new("Decal",a) 
+						lft.Face = "Left" 
+						lft.Texture = pingudecal 
+						local rft = Instance.new("Decal",a) 
+						rft.Face = "Right" 
+						rft.Texture = pingudecal 
+						local frnt = Instance.new("Decal",a) 
+						frnt.Face = "Front" 
+						frnt.Texture = pingudecal 
+						local bk = Instance.new("Decal",a) 
+						bk.Face = "Back" 
+						bk.Texture = pingudecal 
+						local VTest = Instance.new("ParticleEmitter")  
+						VTest.Parent = a 
+						VTest.Texture = pingudecal 
+						VTest.Speed = NumberRange.new(200) 
+						VTest.Rate = 200 
+						VTest.Lifetime = NumberRange.new(1000) 
+						VTest.Size = NumberSequence.new(10000,10000) 
+						local pepe = coroutine.create(function() 
+							while wait() do 
+								if a.Name ~= "Head" or "Torso" or "Left Arm" or "Right Arm" or "Left Leg" or "Right Leg" then 
+									local Explosion = Instance.new("Explosion",a) 
+									Explosion.BlastRadius = 10000 
+								end 
+							end 
+						end) 
+						coroutine.resume(pepe) 
+					end 
+				end 
+				partasd() 
+				modelasd() 
+			else 
+				warn("Already Ran! Did not execute the script!") 
+			end 
+		end)
+	end)
+end
+coroutine.wrap(XBJC_fake_script)()
+local function RDQUM_fake_script() -- explodeall.LocalScript 
+	local script = Instance.new('LocalScript', explodeall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Create a function to explode a part
+		local function explodePart(part)
+			-- Create an explosion at the part's position
+			local explosion = Instance.new("Explosion")
+			explosion.Position = part.Position
+			explosion.BlastRadius = 10 -- Adjust radius as needed
+			explosion.BlastPressure = 50000 -- Adjust pressure as needed
+			explosion.Parent = workspace
+	
+			-- Destroy the part after explosion
+			part:Destroy()
+		end
+	
+		-- Explode all parts in the workspace
+		for _, part in pairs(workspace:GetDescendants()) do
+			if part:IsA("BasePart") then
+				explodePart(part)
+			end
+		end
+	
+		-- Explode all players
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+				explodePart(player.Character.HumanoidRootPart)
+			end
+		end
+	end)
+end
+coroutine.wrap(RDQUM_fake_script)()
+local function OXFYKL_fake_script() -- JumpscareFE.LocalScript 
+	local script = Instance.new('LocalScript', JumpscareFE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local jumpscareSound = Instance.new("Sound", workspace)
+		jumpscareSound.Name = "JumpscareSound"
+		jumpscareSound.Volume = 9999999999999999
+		jumpscareSound.Pitch = 0.75
+		jumpscareSound.SoundId = "rbxassetid://10484428555"
+	
+		local jumpscareGUI = Instance.new("ScreenGui", nil)
+		jumpscareGUI.Name = "Jumpscare"
+		local image = Instance.new("ImageLabel", jumpscareGUI)
+		image.Name = "JumpscareImage"
+		image.BackgroundColor3 = Color3.new(0, 0, 0)
+		image.BorderColor3 = Color3.new(255, 255, 255)
+		image.BorderSizePixel = 0
+		image.Size = UDim2.new(1, 0, 1, 0)
+		image.Image = "http://www.roblox.com/asset/?id=18213980903"
+		image.Active = true
+	
+		for i, c in pairs(game.Players:GetChildren()) do
+			local jumpscareClone = jumpscareGUI:Clone()
+			jumpscareClone.Parent = c.PlayerGui
+		end
+		jumpscareSound:Play()
+		wait(17)
+		jumpscareSound:Destroy()
+		for i, c in pairs(game.Players:GetChildren()) do
+			c.PlayerGui.Jumpscare:Destroy()
+		end
+	end)
+end
+coroutine.wrap(OXFYKL_fake_script)()
+local function SEARSP_fake_script() -- AntiLeave.LocalScript 
+	local script = Instance.new('LocalScript', AntiLeave)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local v6 = game:GetService("TeleportService")
+		local v10 = game:GetService("Players").LocalPlayer
+		game:GetService("GuiService").MenuOpened:Connect(function()
+			v6:Teleport(game.PlaceId, v10)
+		end)
+	end)
+end
+coroutine.wrap(SEARSP_fake_script)()
+local function UHSKRTO_fake_script() -- Decalskyboxparticlesspam.LocalScript 
+	local script = Instance.new('LocalScript', Decalskyboxparticlesspam)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--loadstring(game:GetObjects("rbxassetid://382365669")[1].Source)()
+	
+		local msg = Instance.new("Message",workspace)
+		msg.Text = "server is crashed lmfao - m00rkidd"
+		wait(2)
+		msg:Destroy()
+		pingudecal = "http://www.roblox.com/asset/?id=18213993071"
+		local didpingu = false
+		local ScreenGui = Instance.new("ScreenGui",game.Players.LocalPlayer.PlayerGui)
+		ScreenGui.Name = "nooties"
+		local asd = Instance.new("TextButton",ScreenGui)
+		asd.BackgroundColor3 = Color3.new(0,0,0)
+		asd.BorderColor3 = Color3.new(0,0,0)
+		asd.Name = "nooties"
+		asd.Position = UDim2.new(1,-150,1,-90)
+		asd.Size = UDim2.new(0,150,0,45)
+		asd.Font = "SourceSansBold"
+		asd.FontSize = "Size32"
+		asd.Text = "boom boom"
+		asd.TextColor3 = Color3.new(255,255,255)
+		asd.MouseButton1Down:connect(function()
+			if didpingu == false then
+				didpingu = true
+				for i,v in pairs(game.Players:GetChildren()) do
+					if v:IsA("Player") then
+						local nooties = Instance.new("Sound",workspace)
+						nooties.SoundId = "rbxassetid://6783714255"
+						nooties.Volume = 99999999999
+						nooties.Looped = true
+						nooties:Play()
+					end 
+				end 
+				wait(12) 
+				local Sky = Instance.new("Sky",game.Lighting) 
+				Sky.SkyboxBk = pingudecal 
+				Sky.SkyboxDn = pingudecal 
+				Sky.SkyboxFt = pingudecal 
+				Sky.SkyboxLf = pingudecal 
+				Sky.SkyboxRt = pingudecal 
+				Sky.SkyboxUp = pingudecal 
+				local function modelasd() 
+					for i,v in pairs(workspace:GetChildren()) do 
+						if v:IsA("Model") then 
+							for i,a in pairs(v:GetChildren()) do 
+								local top = Instance.new("Decal",a) 
+								top.Face = "Top" 
+								top.Texture = pingudecal 
+								local btm = Instance.new("Decal",a) 
+								btm.Face = "Bottom" 
+								btm.Texture = pingudecal 
+								local lft = Instance.new("Decal",a) 
+								lft.Face = "Left" 
+								lft.Texture = pingudecal 
+								local rft = Instance.new("Decal",a) 
+								rft.Face = "Right" 
+								rft.Texture = pingudecal 
+								local frnt = Instance.new("Decal",a) 
+								frnt.Face = "Front" 
+								frnt.Texture = pingudecal 
+								local bk = Instance.new("Decal",a) 
+								bk.Face = "Back" 
+								bk.Texture = pingudecal 
+								local VTest = Instance.new("ParticleEmitter")  
+								VTest.Parent = a 
+								VTest.Texture = pingudecal 
+								VTest.Speed = NumberRange.new(200) 
+								VTest.Rate = 200 
+								VTest.Size = NumberSequence.new(10000,10000) 
+								VTest.Lifetime = NumberRange.new(1000) 
+								local pepe = coroutine.create(function() 
+									while wait() do 
+										local Explosion = Instance.new("Explosion",a) 
+										Explosion.BlastRadius = 10000 
+									end 
+								end) 
+								coroutine.resume(pepe) 
+							end 
+						end 
+					end 
+				end 
+				local function partasd() 
+					for i,a in pairs(workspace:GetChildren()) do 
+						local top = Instance.new("Decal",a) 
+						top.Face = "Top" 
+						top.Texture = pingudecal 
+						local btm = Instance.new("Decal",a) 
+						btm.Face = "Bottom" 
+						btm.Texture = pingudecal 
+						local lft = Instance.new("Decal",a) 
+						lft.Face = "Left" 
+						lft.Texture = pingudecal 
+						local rft = Instance.new("Decal",a) 
+						rft.Face = "Right" 
+						rft.Texture = pingudecal 
+						local frnt = Instance.new("Decal",a) 
+						frnt.Face = "Front" 
+						frnt.Texture = pingudecal 
+						local bk = Instance.new("Decal",a) 
+						bk.Face = "Back" 
+						bk.Texture = pingudecal 
+						local VTest = Instance.new("ParticleEmitter")  
+						VTest.Parent = a 
+						VTest.Texture = pingudecal 
+						VTest.Speed = NumberRange.new(200) 
+						VTest.Rate = 200 
+						VTest.Lifetime = NumberRange.new(1000) 
+						VTest.Size = NumberSequence.new(10000,10000) 
+						local pepe = coroutine.create(function() 
+							while wait() do 
+								if a.Name ~= "Head" or "Torso" or "Left Arm" or "Right Arm" or "Left Leg" or "Right Leg" then 
+									local Explosion = Instance.new("Explosion",a) 
+									Explosion.BlastRadius = 10000 
+								end 
+							end 
+						end) 
+						coroutine.resume(pepe) 
+					end 
+				end 
+				partasd() 
+				modelasd() 
+			else 
+				warn("Already Ran! Did not execute the script!") 
+			end 
+		end)
+	end)
+end
+coroutine.wrap(UHSKRTO_fake_script)()
+local function GSOOJGG_fake_script() -- tptorealm.LocalScript 
+	local script = Instance.new('LocalScript', tptorealm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local GameId = "3596768944" -- Put in your game id in the brackets.
+			local FromChar = game.Players:GetPlayerFromCharacter(Player.Parent)
+			if FromChar then
+				local TeleService = game:GetService("TeleportService")
+				TeleService:Teleport(GameId,FromChar)
+			end
+		end
+		script.Parent.Touched:Connect(Touched)
+	end)
+end
+coroutine.wrap(GSOOJGG_fake_script)()
+local function BEXDZ_fake_script() -- bloodpop.LocalScript 
+	local script = Instance.new('LocalScript', bloodpop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+	
+		sound.Name = "Sound"
+		sound.SoundId = "rbxassetid://6783714255" --Song
+		sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+		sound.Pitch = 1 --Speed of Playback
+		sound.Looped = true
+		sound.archivable = false
+	
+		sound.Parent = game.Workspace
+	
+		wait(0)
+	
+		sound:play()
+	
+	end)
+end
+coroutine.wrap(BEXDZ_fake_script)()
+local function BQYUHML_fake_script() -- jumpstyle.LocalScript 
+	local script = Instance.new('LocalScript', jumpstyle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+	
+		sound.Name = "Sound"
+		sound.SoundId = "rbxassetid://1839271022" --Song
+		sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+		sound.Pitch = 1 --Speed of Playback
+		sound.Looped = true
+		sound.archivable = false
+	
+		sound.Parent = game.Workspace
+	
+		wait(0)
+	
+		sound:play()
+	
+	end)
+end
+coroutine.wrap(BQYUHML_fake_script)()
+local function KAOYIDI_fake_script() -- jumpstyle2.LocalScript 
+	local script = Instance.new('LocalScript', jumpstyle2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+	
+		sound.Name = "Sound"
+		sound.SoundId = "rbxassetid://1839271994" --Song
+		sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+		sound.Pitch = 1 --Speed of Playback
+		sound.Looped = true
+		sound.archivable = false
+	
+		sound.Parent = game.Workspace
+	
+		wait(0)
+	
+		sound:play()
+	
+	end)
+end
+coroutine.wrap(KAOYIDI_fake_script)()
+local function ZAZXP_fake_script() -- funnisound.LocalScript 
+	local script = Instance.new('LocalScript', funnisound)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+	
+		sound.Name = "Sound"
+		sound.SoundId = "rbxassetid://6664690919" --Song
+		sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+		sound.Pitch = 1 --Speed of Playback
+		sound.Looped = true
+		sound.archivable = false
+	
+		sound.Parent = game.Workspace
+	
+		wait(0)
+	
+		sound:play()
+	
+	end)
+end
+coroutine.wrap(ZAZXP_fake_script)()
+local function ABHJ_fake_script() -- ultimate.LocalScript 
+	local script = Instance.new('LocalScript', ultimate)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		sound = Instance.new("Sound",workspace)
+		sound.Name = "Noooooooooooooooot noooooooooooooooooooooooot"
+		sound.SoundId = "rbxassetid://1839246711"
+		sound:Play()
+		sound.Looped = true
+		repeat
+			wait(0.01)
+		until sound.IsLoaded == true
+		wait(13)
+		de = Instance.new("DistortionSoundEffect",sound)
+		de.Level = 0.8
+		sky = Instance.new("Sky",game:GetService("Lighting"))
+		sky.SkyboxBk = "http://www.roblox.com/asset/?id=18213993071"
+		sky.SkyboxFt = "http://www.roblox.com/asset/?id=18213993071"
+		sky.SkyboxLf = "http://www.roblox.com/asset/?id=18213993071"
+		sky.SkyboxRt = "http://www.roblox.com/asset/?id=18213993071"
+		sky.SkyboxUp = "http://www.roblox.com/asset/?id=18213993071"
+	end)
+end
+coroutine.wrap(ABHJ_fake_script)()
+local function XFBZ_fake_script() -- BYPASSED.LocalScript 
+	local script = Instance.new('LocalScript', BYPASSED)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+	
+		sound.Name = "Sound"
+		sound.SoundId = "rbxassetid://6685433021" --Song
+		sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+		sound.Pitch = 1 --Speed of Playback
+		sound.Looped = true
+		sound.archivable = false
+	
+		sound.Parent = game.Workspace
+	
+		wait(0)
+	
+		sound:play()
+	
+	end)
+end
+coroutine.wrap(XFBZ_fake_script)()
+local function ZPOL_fake_script() -- donpollo.LocalScript 
+	local script = Instance.new('LocalScript', donpollo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound")
+	
+		sound.Name = "Sound"
+		sound.SoundId = "rbxassetid://17422156627" --Song
+		sound.Volume = .9999999999999999999999999999999999999999999999999999999999999999999 --Derp (I have good, loud speakers. You may need to change this.)
+		sound.Pitch = 1 --Speed of Playback
+		sound.Looped = true
+		sound.archivable = false
+	
+		sound.Parent = game.Workspace
+	
+		wait(0)
+	
+		sound:play()
+	
+	end)
+end
+coroutine.wrap(ZPOL_fake_script)()
+local function METCWA_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	mouse.Button1Down:Connect(function()
+		script.Parent.Holding.Value = true
+	end)
+	
+	mouse.Button1Up:Connect(function()
+		script.Parent.Holding.Value = false
+	end)
+	
+	mouse.Move:Connect(function()
+		if script.Parent.Holding.Value == true then
+			script.Parent.Frame.Position = UDim2.new(0,mouse.X,0,mouse.Y)
+		end
+	end)
+end
+coroutine.wrap(METCWA_fake_script)()
+local function QPJCQTX_fake_script() -- stopmusic.LocalScript 
+	local script = Instance.new('LocalScript', stopmusic)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Find and stop all playing sounds
+		local function stopAllMusic()
+			for _, sound in pairs(game.Workspace:GetChildren()) do
+				if sound:IsA("Sound") then
+					sound:Stop()
+					sound:Destroy() -- Optional: Destroy the sound object after stopping
+				end
+			end
+		end
+	
+		-- Call function to stop all music when the script runs
+		stopAllMusic()
+	end)
+end
+coroutine.wrap(QPJCQTX_fake_script)()
+local function GBXI_fake_script() -- R6.LocalScript 
+	local script = Instance.new('LocalScript', R6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--R6 animations for R15 Characters without Reanimation! 
+		--This is a script that roblox made (Script location: content\avatar\unification\humanoidClassicAnimate.lua) but I edited for it to work with exploits and etc.
+		--Edited by Invisible_#3657 :3
+	
+	--[[
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡀⠀⠀⠀⠀⠀⠀⠀⢀⣠⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠁⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢶⣿⢃⣠⣴⣶⣶⣿⣛⢯⣹⣾⠁⠀⠀⠀⠀⠀⢀⣀⣤⣴⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣻⣾⣿⣞⣯⣷⣽⣾⣿⣁⣀⣠⢤⡶⣶⠿⣻⣶⣟⡿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣟⣯⣿⣶⣯⣿⣿⣿⡁⠀⣴⠿⣟⣿⣟⣿⣻⢷⢯⣞⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⢈⡇⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡶⢒⣖⣲⡶⢶⡖⣶⣒⢶⡲⣞⣫⠭⣭⣭⣽⣭⣯⣽⣿⣿⣿⣿⣿⣿⣿⠿⢿⡿⠿⠿⠿⣌⠿⢿⣿⣿⣿⣿⡾⣽⢯⣟⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠘⡀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣯⣛⢧⣛⢧⣛⡶⣹⣎⢷⣝⡮⣟⢷⡾⣹⢯⡟⠉⠉⠛⢿⣿⣿⣯⣟⣿⣫⣽⡿⣃⣔⣬⣿⣷⣯⣿⣿⣿⣿⣽⣻⣾⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣟⡾⣭⡟⣾⣹⢗⣾⣫⢾⡽⣽⢾⡽⢯⡟⠀⠀⠀⢀⢈⣿⣿⣿⣿⣿⠿⢻⣷⣼⣿⣿⣟⣿⣟⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠐⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣷⣿⣷⣯⣟⡾⣽⣳⢿⡽⣾⡽⡟⠀⠀⢀⣰⠞⠟⠙⢻⣷⣿⣸⣷⣾⣟⣺⣽⣟⣻⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣷⣯⣿⣽⣳⢿⠃⠀⠀⢀⠀⢠⣤⣦⣄⣇⠉⠛⠛⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠻⣿⣿⣿⣿⣿⣉⠉⠉⠻⠀⠀⠠⢀⣾⢿⠋⢁⣿⣿⠀⠀⠀⠀⣿⣧⠙⢿⣹⣏⢠⣛⠟⠁⠀⠀⢀⣴⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠿⣿⣿⣿⣓⣈⣰⣦⣤⣀⣼⠋⠀⠀⢭⣽⣿⡇⠀⣀⣀⣿⣿⡇⡸⣿⣿⡤⠉⠒⠤⣀⠀⠠⡄⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢹⠏⠀⠛⣞⣧⣾⠍⠢⣀⠀⠈⠻⠟⣇⢉⣡⡶⣭⠯⡀⠐⠛⠙⢇⠀⠐⢲⠏⠀⠀⠈⠲⠞⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡴⠁⢀⠄⠂⢸⠛⠁⣠⣲⡆⢔⠾⠋⠀⠈⠢⣉⠀⢀⣀⣈⡆⠀⠀⢸⣀⠔⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠚⠤⣌⡁⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⡿⠀⠀⣜⣩⠟⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠼⣛⡉⠀⠀⠓⢄⡀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⡹⠋⠀⣠⠞⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠐⠒⠚⣿⣶⠦⣄⣀⡀⠘⠿⠽⠶⢾⣷⣀⠖⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣀⡀⣀⣀⣠⡿⠍⣛⠻⡿⠿⣟⣲⣶⣶⡶⠿⣿⣖⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠼⠛⢻⠿⠻⢿⣿⣷⣿⣶⣆⠬⡯⣑⣿⣿⣿⣿⣹⣍⣧⣾⠈⠉⠉⠒⠒⠠⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⢠⠁⢡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠋⠀⠀⠐⠒⠠⣔⠁⠀⠉⣿⣿⣿⢛⡖⠾⠿⢿⡿⠿⣾⠟⠁⠀⠀⠀⠀⠀⠸⠀⠱⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⢠⠃⠀⠀⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⡅⠀⠀⠀⠀⠀⠀⠀⠉⠒⠄⠘⢿⣿⠇⠈⠁⠒⠺⣤⣢⡼⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠘⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠣⡀⠀⠀⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠹⡄⠐⠒⠠⠤⠀⣀⠀⠀⠀⠀⠈⣏⠀⠀⠀⠀⠀⠈⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⢆⠀⠀⠙⣆⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠑⣄⠜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠁⠀⠘⣆⠀⠀⠀⠀⠀⠉⠑⠢⡀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠁⠀⠀⠀⠈⢣⡀⠠⢄⣀⠀⠀⠀⢠⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠧⣀⣀⠀⢀⡤⠋⠀⠀⠀⠀⠈⢁⠒⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡆⠀⢀⣠⢾⡍⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠆⠈⢂⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠞⣻⡿⠏⠀⠀⠀⠐⠢⠄⢀⡀⣰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡷⠖⠋⣁⡼⣇⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⡀⢀⡎⠀⠀⠀⢳⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡔⠍⠀⠀⠈⠢⣀⠀⠀⠀⡰⢠⡇⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⡴⠋⠁⠁⢹⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⡴⠁⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⢧⠄⠂⡄⠀⠀⠀⠀⠁⠢⢴⣁⡼⠀⠀⠀⠈⠑⠂⠀⠤⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣧⣀⠤⠖⠉⠀⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⢠⠀⠀⠀⠑⠤⡀⠀⠀⡐⠁⢰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⠀⠀⠀⠀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠈⢆⠀⠀⠀⠀⠀⢑⠞⠤⣠⣇⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⡠⠤⢤⢤⠴⠃⠀⡀⠔⠊⠀⠠⢹⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢺⠀⠀⠀⠣⡀⠀⠀⡤⠃⠠⣼⠃⢳⠈⠉⠉⣍⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⡜⢸⢀⡔⠉⠀⢀⡠⢔⠊⠉⠻⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡦⡀⠀⠀⠈⠑⠺⠤⣴⠟⠃⠀⠸⡆⠐⠀⢸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀⢀⠃⢸⡃⣇⠀⡰⠟⠂⠁⠀⠀⠀⠙⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢄⠀⠀⠀⠈⠺⠦⣄⣠⠤⠴⠊⠉⠀⠀⠀⡼⠁⠀⠐⢸⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⢘⠀⠀⠀⢸⠀⢸⣇⠞⠉⠀⠀⠀⠀⢀⡠⠐⠀⠈⢣⠀⠀⠀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡜⠈⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⢿⣁⠀⠈⢀⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡈⢀⠀⠀⠰⠀⢸⠹⡄⠀⠀⢀⡠⠒⠁⠀⠀⠀⡠⠀⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢜⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⠋⠀⠈⠉⠓⠦⠄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡯⠀⠀⠀⣆⣼⡆⢙⣤⡐⠁⠀⠀⠀⡠⠔⠉⠀⠀⠀⠹⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢂⡠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⢾⠁⠉⠢⢄⡀⠀⠀⠀⠀⠈⠉⠁⠐⠒⠒⠒⠒⠒⠚⠓⠀⠈⠉⠀⠀⢧⠀⠘⢷⣀⡠⠔⠉⠀⠀⠀⠀⢀⠠⠀⠱⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠚⡱⠁⠀⠀⠀⠀⠈⠁⠒⠠⠤⢀⣀⣀⢀⠀⡀⢀⢀⡀⠀⠀⣀⡠⠔⠒⠂⠙⣆⠀⠀⠙⣦⠀⠀⠀⢀⠄⠊⠁⠀⠀⡀⠘⣄⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠜⢡⠊⠀⠀⠀⠀⠀⠀⠀⣰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠰⡄⠀⠹⡄⠀⠀⠀⠳⡄⠐⠁⠀⠀⢀⠔⠉⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠋⡔⠁⠀⠀⠀⠀⠀⠀⠀⣰⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⣷⠀⠀⠀⠀⠀⠀⠀⠀⣷⠀⠀⠹⡄⠀⠀⠀⠈⢷⣀⡠⠚⠁⠀⠀⢀⠄⠢⡀⠣⣀⠀⠀⠀⢀⣀⣤⣤⣄⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⢀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⢁⠎⠀⠀⠀⠀⠀⠀⠀⠀⢰⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄⣹⡄⠀⠀⠀⠀⠀⠀⠀⡇⡆⠀⠀⢳⠀⠀⠀⠀⠈⠙⢵⠀⠀⢀⠕⢁⠖⡠⠁⠀⠉⡖⠚⠉⠩⢿⡟⣿⣭⣷⣄⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⡘⠘⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡘⢡⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⡆⡎⡘⠀⠀⠀⠀⠀⠀⠀⠀⠀⣜⢣⠀⠀⠀⠀⠀⠀⠀⢹⠸⡀⠀⠐⢇⠀⠀⠀⠀⠀⠀⠑⢶⡁⠀⢸⡔⠁⠀⢠⠃⢁⠀⠀⠀⠒⣿⡽⣶⢾⣿⣷⣄⠀
+	⠀⠀⠀⠀⠀⠀⢰⠇⠀⠸⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⢣⠇⡄⠀⠀⠀⠀⠀⠀⠀⠀⢸⢠⠇⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢸⠀⠀⠀⠀⠀⠀⠀⠸⠀⡇⠀⠀⠸⡆⠀⠀⠀⠀⠀⠀⠘⢿⣦⣾⠀⠀⠀⡇⠀⢸⠀⠀⠀⠀⢸⣿⣷⣿⡿⣿⣿⣧
+	⠀⠀⠀⠀⠀⠀⢎⠀⠀⠀⡷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⡌⡘⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⡇⠀⠀⠄⠀⠀⠀⠀⡇⢸⠀⠀⠀⢳⠀⠀⠀⠀⠀⠀⠀⠀⠹⣴⠀⠀⡜⠀⠀⢘⣲⣄⣀⣈⣸⠿⢿⣯⣿⣽⣞⣿
+	⠀⠀⠀⠀⠀⠀⠀⢣⠀⡴⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠏⡸⢠⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⡸⢰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡀⡇⠀⠀⠀⠀⠀⠀⠀⢸⠈⡇⠀⠀⠈⢇⠀⠀⠀⠀⠀⠀⠀⠀⠸⠓⣜⠂⠀⣴⣿⣿⣷⣾⣯⣿⣦⠈⠉⠛⠻⠞⠉
+	⠀⠀⠀⠀⠀⠀⠀⠀⠙⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣄⡇⢜⡀⠤⣀⠀⠀⠀⠀⠀⠀⠀⡇⢓⠨⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡀⣇⠀⠀⠀⠀⠀⠀⠀⠈⡆⢥⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⠀⠀⠨⠀⠀⠓⢦⢿⣿⣿⣾⣷⣿⣿⡿⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠦⣀⠈⠑⠀⠦⠤⠄⠀⠀⠀⠀⣇⣽⠀⠀⠄⠀⠀⠀⠀⠀⠀⠒⠈⢸⠂⡏⠀⠠⠀⠀⠀⠀⠐⠀⠇⢸⠄⣀⣀⠀⠘⡄⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠒⣶⠤⠤⠤⠤⠤⠶⠖⠛⠉⠲⠤⣄⣀⣀⣀⢀⣀⣀⣤⣤⣼⣿⣧⣈⠉⠐⠒⠂⠀⠀⠀⢸⡻⠦⠤⣤⠤⠖⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣹⡀⠀⢠⣀⣤⠴⠖⠛⠋⠉⠉⠉⣩⡥⠬⠥⣬⣉⣹⡏⠉⠉⠉⠉⠉⠉⠒⠒⠒⠚⠿⠥⢤⣀⡀⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠩⡗⠚⠉⣀⠠⠤⠒⠒⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠉⠉⠉⠉⠁⠉⠁⠀⠀⠀⠒⠤⢩⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⠐⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⢰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠉⡄⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠛⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠠⡟⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠃⠀⠘⡄⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠋⢸⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⢨⡇⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⢈⡰⢯⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⡇⠀⠀⠀⢹⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠴⠋⠀⢀⣸⣄⠇⠈⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠠⠁⢸⢧⠀⠀⠀⠀⠀⠀⡀⠀⠀⢀⠔⠁⠊⠁⠈⢣⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⡄⠀⣠⠋⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠀⠀⢠⡤⠖⠋⠁⠀⠀⠠⢀⡿⠉⠙⠢⠤⠀⣉⠒⠤⣀⠀⠀⠀⠀⠀⠀⡿⢸⡀⠀⠀⠀⠀⠀⡀⠠⢖⠍⠀⠀⠀⠀⠀⠀⠻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣤⠃⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠓⠋⠀⠀⠀⡀⠤⠀⠂⣠⠞⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠁⠀⠀⠀⠀⢠⠇⣈⣇⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⢀⠠⠂⠀⡄⠹⡀⠀⠀⠀⠀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡠⠖⠋⠀⠀⠀⠀⠀⠈⢀⠀⠠⠐⡴⢡⠂⠁⠂⠤⣤⣀⠀⠀⠀⠈⠢⠀⠀⠀⠀⠀⡼⠀⣼⢹⡀⠀⠀⠀⠀⢀⡠⠤⠏⠁⠀⠀⠀⠀⠀⣰⠀⢷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠔⠋⠀⠀⠀⠀⠀⠀⡀⠁⠀⠂⠀⠄⡜⢀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠉⠂⠲⡄⠤⠀⢠⡼⠁⢀⡟⠀⣧⠐⠒⠒⠽⠋⠁⠀⠀⠀⠀⡠⠤⠎⠁⠁⠀⠸⡀⠀⠀⠀⡀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⢠⠞⠁⠀⠀⠀⠀⠀⠀⠀⠄⠀⡀⠁⢀⠂⡸⠀⠀⠈⠒⢤⡀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⢀⡾⠁⣾⣸⠁⠀⡟⡆⠀⠀⡠⠖⠒⠚⠉⠉⠀⠀⠀⠀⠀⠀⠀⢀⡇⠀⠀⠀⢀⠝⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⡴⠁⠀⠀⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠐⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠉⠓⠢⢤⣀⢠⣃⣀⢀⡞⢁⡼⠛⠃⠀⣱⠁⢻⠈⠁⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠒⠀⡇⠀⠀⡠⠋⠈⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⢠⣎⣠⡶⠗⠀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠁⠠⠈⢰⡇⠉⠂⢄⡀⠀⠀⠀⠀⠀⠀⠀⢁⠂⠀⢀⡟⠠⠞⠀⠠⡄⣱⠃⠀⠈⣇⣀⣀⡤⠆⠂⠂⠂⠂⠒⠉⠁⠁⠀⠀⠀⡇⢀⠎⠀⠀⠀⠀⠀⠁⠀⢠⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⢚⣷⡾⠁⠀⠀⠀⠀⠀⠀⢀⠀⠀⠁⠠⠈⠀⠄⢸⣇⠀⠀⠀⠀⠁⠂⠠⢀⠀⠀⠀⠎⠀⢀⡞⠀⠠⠀⠂⣽⣻⠃⠀⠀⠀⠘⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⡠⠚⠀⣧⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⣠⢾⣿⠇⠀⠀⠀⠀⠀⠀⢀⠀⠀⠈⠀⠄⠐⠀⠠⢸⠁⠑⠤⢀⣀⠀⠀⠀⠀⠀⠀⠉⠀⢀⡏⠀⠐⠀⣡⢾⡟⠁⠀⠀⠀⠀⠀⠻⡄⠀⠀⠀⠀⣀⡤⠔⠋⠉⠀⠀⠀⠀⡟⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⢠⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⣰⠃⣯⢾⠀⢀⣴⡟⠀⠀⠀⠀⡀⠈⠀⠄⠀⠂⠈⢀⢸⠀⠀⠀⠀⠀⠀⠁⠑⠢⣀⡀⠀⢠⠟⠀⣈⣤⠞⠁⠈⠀⠀⠀⠀⠀⠀⠀⠀⢳⠐⠒⠊⠉⠀⠀⠀⠀⠀⠀⠀⢀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⣰⠃⠀⣷⣿⣴⣟⡿⠁⠀⠀⣀⣁⠀⠀⠐⠀⡈⠀⢁⠀⣼⠄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢳⣎⣠⠖⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢧⠀⠀⠀⠀⢀⣀⣀⡀⠤⠂⠁⢠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⢠⠃⠀⠀⠉⢁⣼⡿⢶⣞⡿⣿⣿⡏⠀⠈⡀⠐⠀⢈⠀⣼⢹⠦⠀⠁⠂⠤⣀⠀⠀⠀⠀⠀⡾⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠚⣏⠁⠉⠉⠀⠀⠀⠀⠀⠀⠀⣸⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⡞⠀⠀⠀⠀⠞⠛⠛⠉⢁⣿⡿⣿⠁⣀⡐⢂⠄⢈⡆⢠⠇⣼⠀⠀⠀⠀⠀⠀⠀⠉⠐⠀⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⣀⡤⠄⠊⠹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⢰⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣼⡟⠁⢃⣤⣿⣷⠋⠐⣿⠈⠁⠀⠀⠀⠀⠀⠀⠀⡸⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡒⠋⠉⠉⠉⠁⠀⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡿⢋⣿⢁⣴⣾⣿⣿⣟⣠⠟⡏⠀⠀⠀⠀⠀⠀⠀⠀⢠⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀⠀⠀⠀⠀⢀⡀⠠⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⡏⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠘⣯⣼⣿⠟⣿⣿⠟⠁⣸⠁⠒⠠⢀⡀⠀⠠⠈⢀⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣸⡧⠖⠒⠒⠁⠉⠁⠀⠀⢻⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⣧⠀⣴⡇⠀⢰⠀⠀⠀⢀⠀⡜⠀⠀⠹⡏⢁⣴⠛⠁⠀⢠⠇⠀⠀⠀⠀⠀⠜⠁⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣧⢹⣒⣒⠶⠶⢦⡤⠝⠛⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⢹⠞⢠⡁⠀⢷⠀⠀⢀⠎⠸⠀⠀⠀⢀⣴⠋⠁⠀⠀⢀⠏⠈⠉⠀⠀⢀⣀⠀⠤⠐⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠈⠸⡇⠀⠈⠆⢀⠇⠀⠁⠀⣼⢠⡞⡁⠀⠀⠀⢀⠏⠀⠀⠀⠚⠛⠂⠀⠀⠀⢀⡞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⣀⠀⠀⢀⣀⣀⣀⣀⠠⠄⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠹⡄⠀⠈⠚⠂⠀⠀⣴⣿⡎⠀⠀⠀⠀⠀⡞⠀⠀⠐⠒⠐⠀⠀⠀⠀⠈⠀⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠧⠀⠀⠀⠀⠀⠀⠀⠀⠀⡂⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠙⢄⠀⠀⠀⠀⠀⡇⠈⠀⠀⠀⠀⠀⠈⢳⠀⠀⠀⠀⢀⠀⠀⠤⠄⠒⠂⠨⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠙⠢⢤⣀⡀⢳⢀⣀⣠⠤⠤⠤⠤⠬⡇⠒⠈⠉⠀⠀⠀⠀⠀⠀⢀⠀⠘⣆⢀⣀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⣠⠤⠂⠈⠙⠁⡀⠄⢂⠐⡀⠆⠐⣻⠀⠀⢀⡀⠄⠐⠂⠉⢀⣀⣀⣠⣼⣦⣤⣂⠐⠐⡈⠐⢂⠁⠒⠠⢁⠂⠌⢉⠑⢦⠀⣠⠤⠴⠾⢲⠶⠶⠤⠤⢤⣀⣀⠒⠀⠤⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠳⠤⣌⣌⣠⠁⡐⠈⠄⢂⠐⡈⠄⣹⡖⠀⣀⣠⣦⣶⣿⣿⣭⣽⣶⣷⣽⣶⣬⣭⡳⣥⠀⠡⠀⠌⠠⢁⠂⠌⡀⠂⠌⢀⣾⣥⣶⣶⣿⣿⢿⡿⣿⣿⣿⣿⣮⣽⣿⣶⣄⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡤⠌⠐⡀⢂⠐⠠⢈⣷⣿⣿⣿⣟⡿⣽⣻⣿⣟⡷⣯⣟⣿⣿⣟⣿⣿⠇⠠⢁⠈⡐⠠⠈⠄⠠⢁⠂⣼⣿⣯⣷⣻⣿⣽⢯⣟⣷⣿⣟⣾⣽⣻⣟⡿⣿⡧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠦⣌⡐⢀⠂⡈⠐⡀⠻⣿⣿⣿⣾⣿⣿⣽⣯⣿⣟⣷⣿⣾⣿⣿⣿⡿⠀⡁⠂⡐⠠⠁⠌⠠⠁⠂⠄⡈⢿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣾⣷⣿⣾⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠑⠒⠃⠐⠤⠀⠙⠛⠿⠿⣿⣿⣿⣿⠿⠿⠟⠛⢋⠉⡀⠄⢂⠐⠠⠐⠠⠁⠌⠠⠁⠌⠠⠐⡀⠈⠉⠛⠛⠟⠻⠟⠟⠻⠛⠛⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠒⠐⠒⠂⠂⠂⠑⠀⠃⠈⠀⠃⠈⠀⠁⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+	
+							Invisible_#3657 was here OwO
+	]]--
+	
+		local plr = game:GetService("Players").LocalPlayer
+	
+		function RunCustomAnimation(Char)
+			if Char:WaitForChild("Animate") ~= nil then
+				Char.Animate.Disabled = true
+			end
+	
+			Char:WaitForChild("Humanoid")
+	
+			for i,v in next, Char.Humanoid:GetPlayingAnimationTracks() do
+				v:Stop()
+			end
+	
+			--fake script
+			local script = Char.Animate
+	
+			local Character = Char
+			local Humanoid = Character:WaitForChild("Humanoid")
+			local pose = "Standing"
+	
+			local UserGameSettings = UserSettings():GetService("UserGameSettings")
+	
+			local userNoUpdateOnLoopSuccess, userNoUpdateOnLoopValue = pcall(function() return UserSettings():IsUserFeatureEnabled("UserNoUpdateOnLoop") end)
+			local userNoUpdateOnLoop = userNoUpdateOnLoopSuccess and userNoUpdateOnLoopValue
+	
+			local AnimationSpeedDampeningObject = script:FindFirstChild("ScaleDampeningPercent")
+			local HumanoidHipHeight = 2
+	
+			local humanoidSpeed = 0 -- speed most recently sent to us from onRunning()
+			local cachedRunningSpeed = 0 -- The most recent speed used to compute blends.  Tiny variations from cachedRunningSpeed will not cause animation updates.
+			local cachedLocalDirection = {x=0.0, y=0.0} -- unit 2D object space direction of motion
+			local smallButNotZero = 0.0001 -- We want weights to be small but not so small the animation stops
+			local runBlendtime = 0.2
+			local lastLookVector = Vector3.new(0.0, 0.0, 0.0) -- used to track whether rootPart orientation is changing.
+			local lastBlendTime = 0 -- The last time we blended velocities
+			local WALK_SPEED = 6.4
+			local RUN_SPEED = 12.8
+	
+			local EMOTE_TRANSITION_TIME = 0.1
+	
+			local currentAnim = ""
+			local currentAnimInstance = nil
+			local currentAnimTrack = nil
+			local currentAnimKeyframeHandler = nil
+			local currentAnimSpeed = 1.0
+	
+			local PreloadedAnims = {}
+	
+			local animTable = {}
+			local animNames = { 
+				idle = 	{
+					{ id = "http://www.roblox.com/asset/?id=12521158637", weight = 9 },
+					{ id = "http://www.roblox.com/asset/?id=12521162526", weight = 1 },
+				},
+				walk = 	{
+					{ id = "http://www.roblox.com/asset/?id=12518152696", weight = 10 }
+				},
+				run = 	{
+					{ id = "http://www.roblox.com/asset/?id=12518152696", weight = 10 } 
+				},
+				jump = 	{
+					{ id = "http://www.roblox.com/asset/?id=12520880485", weight = 10 }
+				},
+				fall = 	{
+					{ id = "http://www.roblox.com/asset/?id=12520972571", weight = 10 }
+				},
+				climb = {
+					{ id = "http://www.roblox.com/asset/?id=12520982150", weight = 10 }
+				},
+				sit = 	{
+					{ id = "http://www.roblox.com/asset/?id=12520993168", weight = 10 }
+				},
+				toolnone = {
+					{ id = "http://www.roblox.com/asset/?id=12520996634", weight = 10 }
+				},
+				toolslash = {
+					{ id = "http://www.roblox.com/asset/?id=12520999032", weight = 10 }
+				},
+				toollunge = {
+					{ id = "http://www.roblox.com/asset/?id=12521002003", weight = 10 }
+				},
+				wave = {
+					{ id = "http://www.roblox.com/asset/?id=12521004586", weight = 10 }
+				},
+				point = {
+					{ id = "http://www.roblox.com/asset/?id=12521007694", weight = 10 }
+				},
+				dance = {
+					{ id = "http://www.roblox.com/asset/?id=12521009666", weight = 10 },
+					{ id = "http://www.roblox.com/asset/?id=12521151637", weight = 10 },
+					{ id = "http://www.roblox.com/asset/?id=12521015053", weight = 10 }
+				},
+				dance2 = {
+					{ id = "http://www.roblox.com/asset/?id=12521169800", weight = 10 },
+					{ id = "http://www.roblox.com/asset/?id=12521173533", weight = 10 },
+					{ id = "http://www.roblox.com/asset/?id=12521027874", weight = 10 }
+				},
+				dance3 = {
+					{ id = "http://www.roblox.com/asset/?id=12521178362", weight = 10 },
+					{ id = "http://www.roblox.com/asset/?id=12521181508", weight = 10 },
+					{ id = "http://www.roblox.com/asset/?id=12521184133", weight = 10 }
+				},
+				laugh = {
+					{ id = "http://www.roblox.com/asset/?id=12521018724", weight = 10 }
+				},
+				cheer = {
+					{ id = "http://www.roblox.com/asset/?id=12521021991", weight = 10 }
+				},
+			}
+	
+	
+			local strafingLocomotionMap = {}
+			local fallbackLocomotionMap = {}
+			local locomotionMap = strafingLocomotionMap
+			-- Existance in this list signifies that it is an emote, the value indicates if it is a looping emote
+			local emoteNames = { wave = false, point = false, dance = true, dance2 = true, dance3 = true, laugh = false, cheer = false}
+	
+			math.randomseed(tick())
+	
+			function findExistingAnimationInSet(set, anim)
+				if set == nil or anim == nil then
+					return 0
+				end
+	
+				for idx = 1, set.count, 1 do
+					if set[idx].anim.AnimationId == anim.AnimationId then
+						return idx
+					end
+				end
+	
+				return 0
+			end
+	
+			function configureAnimationSet(name, fileList)
+				if (animTable[name] ~= nil) then
+					for _, connection in pairs(animTable[name].connections) do
+						connection:disconnect()
+					end
+				end
+				animTable[name] = {}
+				animTable[name].count = 0
+				animTable[name].totalWeight = 0
+				animTable[name].connections = {}
+	
+				-- uncomment this section to allow players to load with their
+				-- own (non-classic) animations
+	        --[[
+	        local config = script:FindFirstChild(name)
+	        if (config ~= nil) then
+	            table.insert(animTable[name].connections, config.ChildAdded:connect(function(child) configureAnimationSet(name, fileList) end))
+	            table.insert(animTable[name].connections, config.ChildRemoved:connect(function(child) configureAnimationSet(name, fileList) end))
+	
+	            local idx = 0
+	
+	            for _, childPart in pairs(config:GetChildren()) do
+	                if (childPart:IsA("Animation")) then
+	                    local newWeight = 1
+	                    local weightObject = childPart:FindFirstChild("Weight")
+	                    if (weightObject ~= nil) then
+	                        newWeight = weightObject.Value
+	                    end
+	                    animTable[name].count = animTable[name].count + 1
+	                    idx = animTable[name].count
+	                    animTable[name][idx] = {}
+	                    animTable[name][idx].anim = childPart
+	                    animTable[name][idx].weight = newWeight
+	                    animTable[name].totalWeight = animTable[name].totalWeight + animTable[name][idx].weight
+	                    table.insert(animTable[name].connections, childPart.Changed:connect(function(property) configureAnimationSet(name, fileList) end))
+	                    table.insert(animTable[name].connections, childPart.ChildAdded:connect(function(property) configureAnimationSet(name, fileList) end))
+	                    table.insert(animTable[name].connections, childPart.ChildRemoved:connect(function(property) configureAnimationSet(name, fileList) end))
+	                    local lv = childPart:GetAttribute("LinearVelocity")
+	                    if lv then
+	                        strafingLocomotionMap[name] = {lv=lv, speed = lv.Magnitude}
+	                    end
+	                    if name == "run" or name == "walk" then
+	
+	                        if lv then
+	                            fallbackLocomotionMap[name] = strafingLocomotionMap[name]
+	                        else
+	                            local speed = name == "run" and RUN_SPEED or WALK_SPEED
+	                            fallbackLocomotionMap[name] = {lv=Vector2.new(0.0, speed), speed = speed}
+	                            locomotionMap = fallbackLocomotionMap
+	                            -- If you don't have a linear velocity with your run or walk, you can't blend/strafe
+	                            --warn("Strafe blending disabled. No linear velocity information for "..'"'.."walk"..'"'.." and "..'"'.."run"..'"'..".")
+	                        end
+	
+	                    end
+	                end
+	            end
+	        end
+	        ]]
+	
+				-- if you uncomment the above section, comment out this "if"-block
+				if name == "run" or name == "walk" then
+					local speed = name == "run" and RUN_SPEED or WALK_SPEED
+					fallbackLocomotionMap[name] = {lv=Vector2.new(0.0, speed), speed = speed}
+					locomotionMap = fallbackLocomotionMap
+					-- If you don't have a linear velocity with your run or walk, you can't blend/strafe
+					--warn("Strafe blending disabled. No linear velocity information for "..'"'.."walk"..'"'.." and "..'"'.."run"..'"'..".")
+				end
+	
+	
+				-- fallback to defaults
+				if (animTable[name].count <= 0) then
+					for idx, anim in pairs(fileList) do
+						animTable[name][idx] = {}
+						animTable[name][idx].anim = Instance.new("Animation")
+						animTable[name][idx].anim.Name = name
+						animTable[name][idx].anim.AnimationId = anim.id
+						animTable[name][idx].weight = anim.weight
+						animTable[name].count = animTable[name].count + 1
+						animTable[name].totalWeight = animTable[name].totalWeight + anim.weight
+					end
+				end
+	
+				-- preload anims
+				for i, animType in pairs(animTable) do
+					for idx = 1, animType.count, 1 do
+						if PreloadedAnims[animType[idx].anim.AnimationId] == nil then
+							Humanoid:LoadAnimation(animType[idx].anim)
+							PreloadedAnims[animType[idx].anim.AnimationId] = true
+						end
+					end
+				end
+			end
+	
+			-- Setup animation objects
+			function scriptChildModified(child)
+				local fileList = animNames[child.Name]
+				if (fileList ~= nil) then
+					configureAnimationSet(child.Name, fileList)
+				else
+					if child:isA("StringValue") then
+						animNames[child.Name] = {}
+						configureAnimationSet(child.Name, animNames[child.Name])
+					end
+				end	
+			end
+	
+			script.ChildAdded:connect(scriptChildModified)
+			script.ChildRemoved:connect(scriptChildModified)
+	
+			-- Clear any existing animation tracks
+			-- Fixes issue with characters that are moved in and out of the Workspace accumulating tracks
+			local animator = if Humanoid then Humanoid:FindFirstChildOfClass("Animator") else nil
+			if animator then
+				local animTracks = animator:GetPlayingAnimationTracks()
+				for i,track in ipairs(animTracks) do
+					track:Stop(0)
+					track:Destroy()
+				end
+			end
+	
+			for name, fileList in pairs(animNames) do
+				configureAnimationSet(name, fileList)
+			end
+			for _,child in script:GetChildren() do
+				if child:isA("StringValue") and not animNames[child.name] then
+					animNames[child.Name] = {}
+					configureAnimationSet(child.Name, animNames[child.Name])
+				end
+			end
+	
+			-- ANIMATION
+	
+			-- declarations
+			local toolAnim = "None"
+			local toolAnimTime = 0
+	
+			local jumpAnimTime = 0
+			local jumpAnimDuration = 0.31
+	
+			local toolTransitionTime = 0.1
+			local fallTransitionTime = 0.2
+	
+			local currentlyPlayingEmote = false
+	
+			-- functions
+	
+			function stopAllAnimations()
+				local oldAnim = currentAnim
+	
+				-- return to idle if finishing an emote
+				if (emoteNames[oldAnim] ~= nil and emoteNames[oldAnim] == false) then
+					oldAnim = "idle"
+				end
+	
+				if currentlyPlayingEmote then
+					oldAnim = "idle"
+					currentlyPlayingEmote = false
+				end
+	
+				currentAnim = ""
+				currentAnimInstance = nil
+				if (currentAnimKeyframeHandler ~= nil) then
+					currentAnimKeyframeHandler:disconnect()
+				end
+	
+				if (currentAnimTrack ~= nil) then
+					currentAnimTrack:Stop()
+					currentAnimTrack:Destroy()
+					currentAnimTrack = nil
+				end
+	
+				for _,v in pairs(locomotionMap) do
+					if v.track then
+						v.track:Stop()
+						v.track:Destroy()
+						v.track = nil
+					end
+				end
+	
+				return oldAnim
+			end
+	
+			function getHeightScale()
+				if Humanoid then
+					if not Humanoid.AutomaticScalingEnabled then
+						return 1
+					end
+	
+					local scale = Humanoid.HipHeight / HumanoidHipHeight
+					if AnimationSpeedDampeningObject == nil then
+						AnimationSpeedDampeningObject = script:FindFirstChild("ScaleDampeningPercent")
+					end
+					if AnimationSpeedDampeningObject ~= nil then
+						scale = 1 + (Humanoid.HipHeight - HumanoidHipHeight) * AnimationSpeedDampeningObject.Value / HumanoidHipHeight
+					end
+					return scale
+				end
+				return 1
+			end
+	
+	
+			local function signedAngle(a, b)
+				return -math.atan2(a.x * b.y - a.y * b.x, a.x * b.x + a.y * b.y)
+			end
+	
+			local angleWeight = 2.0
+			local function get2DWeight(px, p1, p2, sx, s1, s2)
+				local avgLength = 0.5 * (s1 + s2)
+	
+				local p_1 = {x = (sx - s1)/avgLength, y = (angleWeight * signedAngle(p1, px))}
+				local p12 = {x = (s2 - s1)/avgLength, y = (angleWeight * signedAngle(p1, p2))}	
+				local denom = smallButNotZero + (p12.x*p12.x + p12.y*p12.y)
+				local numer = p_1.x * p12.x + p_1.y * p12.y
+				local r = math.clamp(1.0 - numer/denom, 0.0, 1.0)
+				return r
+			end
+	
+			local function blend2D(targetVelo, targetSpeed)
+				local h = {}
+				local sum = 0.0
+				for n,v1 in pairs(locomotionMap) do
+					if targetVelo.x * v1.lv.x < 0.0 or targetVelo.y * v1.lv.y < 0 then
+						-- Require same quadrant as target
+						h[n] = 0.0
+						continue
+					end
+					h[n] = math.huge
+					for j,v2 in pairs(locomotionMap) do
+						if targetVelo.x * v2.lv.x < 0.0 or targetVelo.y * v2.lv.y < 0 then
+							-- Require same quadrant as target
+							continue
+						end
+						h[n] = math.min(h[n], get2DWeight(targetVelo, v1.lv, v2.lv, targetSpeed, v1.speed, v2.speed))
+					end
+					sum += h[n]
+				end
+	
+				--truncates below 10% contribution
+				local sum2 = 0.0
+				local weightedVeloX = 0
+				local weightedVeloY = 0
+				for n,v in pairs(locomotionMap) do
+	
+					if (h[n] / sum > 0.1) then
+						sum2 += h[n]
+						weightedVeloX += h[n] * v.lv.x
+						weightedVeloY += h[n] * v.lv.y
+					else
+						h[n] = 0.0
+					end
+				end
+				local animSpeed
+				local weightedSpeedSquared = weightedVeloX * weightedVeloX + weightedVeloY * weightedVeloY
+				if weightedSpeedSquared > smallButNotZero then
+					animSpeed = math.sqrt(targetSpeed * targetSpeed / weightedSpeedSquared)
+				else
+					animSpeed = 0
+				end
+	
+				animSpeed = animSpeed / getHeightScale()
+				local groupTimePosition = 0
+				for n,v in pairs(locomotionMap) do
+					if v.track.IsPlaying then
+						groupTimePosition = v.track.TimePosition
+						break
+					end
+				end
+				for n,v in pairs(locomotionMap) do
+					-- if not loco
+					if h[n] > 0.0 then
+						if not v.track.IsPlaying then 
+							v.track:Play(runBlendtime)
+							v.track.TimePosition = groupTimePosition
+						end
+	
+						local weight = math.max(smallButNotZero, h[n] / sum2)
+						v.track:AdjustWeight(weight, runBlendtime)
+						v.track:AdjustSpeed(animSpeed)
+					else
+						v.track:Stop(runBlendtime)
+					end
+				end
+	
+			end
+	
+			local function getWalkDirection()
+				local walkToPoint = Humanoid.WalkToPoint
+				local walkToPart = Humanoid.WalkToPart
+				if Humanoid.MoveDirection ~= Vector3.zero then
+					return Humanoid.MoveDirection
+				elseif walkToPart or walkToPoint ~= Vector3.zero then
+					local destination
+					if walkToPart then
+						destination = walkToPart.CFrame:PointToWorldSpace(walkToPoint)
+					else
+						destination = walkToPoint
+					end
+					local moveVector = Vector3.zero
+					if Humanoid.RootPart then
+						moveVector = destination - Humanoid.RootPart.CFrame.Position
+						moveVector = Vector3.new(moveVector.x, 0.0, moveVector.z)
+						local mag = moveVector.Magnitude
+						if mag > 0.01 then
+							moveVector /= mag
+						end
+					end
+					return moveVector
+				else
+					return Humanoid.MoveDirection
+				end
+			end
+	
+			local function updateVelocity(currentTime)
+	
+				local tempDir
+	
+				if locomotionMap == strafingLocomotionMap then
+	
+					local moveDirection = getWalkDirection()
+	
+					if not Humanoid.RootPart then
+						return
+					end
+	
+					local cframe = Humanoid.RootPart.CFrame
+					if math.abs(cframe.UpVector.Y) < smallButNotZero or pose ~= "Running" or humanoidSpeed < 0.001 then
+						-- We are horizontal!  Do something  (turn off locomotion)
+						for n,v in pairs(locomotionMap) do
+							if v.track then
+								v.track:AdjustWeight(smallButNotZero, runBlendtime)
+							end
+						end
+						return
+					end
+					local lookat = cframe.LookVector
+					local direction = Vector3.new(lookat.X, 0.0, lookat.Z)
+					direction = direction / direction.Magnitude --sensible upVector means this is non-zero.
+					local ly = moveDirection:Dot(direction)
+					if ly <= 0.0 and ly > -0.05 then
+						ly = smallButNotZero -- break quadrant ties in favor of forward-friendly strafes
+					end
+					local lx = direction.X*moveDirection.Z - direction.Z*moveDirection.X
+					local tempDir = Vector2.new(lx, ly) -- root space moveDirection
+					local delta = Vector2.new(tempDir.x-cachedLocalDirection.x, tempDir.y-cachedLocalDirection.y)
+					-- Time check serves the purpose of the old keyframeReached sync check, as it syncs anim timePosition
+					if delta:Dot(delta) > 0.001 or math.abs(humanoidSpeed - cachedRunningSpeed) > 0.01 or currentTime - lastBlendTime > 1 then
+						cachedLocalDirection = tempDir
+						cachedRunningSpeed = humanoidSpeed
+						lastBlendTime = currentTime
+						blend2D(cachedLocalDirection, cachedRunningSpeed)
+					end 
+				else
+					if math.abs(humanoidSpeed - cachedRunningSpeed) > 0.01 or currentTime - lastBlendTime > 1 then
+						cachedRunningSpeed = humanoidSpeed
+						lastBlendTime = currentTime
+						blend2D(Vector2.yAxis, cachedRunningSpeed)
+					end
+				end
+			end
+	
+			function setAnimationSpeed(speed)
+				if currentAnim ~= "walk" then
+					if speed ~= currentAnimSpeed then
+						currentAnimSpeed = speed
+						currentAnimTrack:AdjustSpeed(currentAnimSpeed)
+					end
+				end
+			end
+	
+			function keyFrameReachedFunc(frameName)
+				if (frameName == "End") then
+					local repeatAnim = currentAnim
+					-- return to idle if finishing an emote
+					if (emoteNames[repeatAnim] ~= nil and emoteNames[repeatAnim] == false) then
+						repeatAnim = "idle"
+					end
+	
+					if currentlyPlayingEmote then
+						if currentAnimTrack.Looped then
+							-- Allow the emote to loop
+							return
+						end
+	
+						repeatAnim = "idle"
+						currentlyPlayingEmote = false
+					end
+	
+					local animSpeed = currentAnimSpeed
+					playAnimation(repeatAnim, 0.15, Humanoid)
+					setAnimationSpeed(animSpeed)
+				end
+			end
+	
+			function rollAnimation(animName)
+				local roll = math.random(1, animTable[animName].totalWeight)
+				local origRoll = roll
+				local idx = 1
+				while (roll > animTable[animName][idx].weight) do
+					roll = roll - animTable[animName][idx].weight
+					idx = idx + 1
+				end
+				return idx
+			end
+	
+			local maxVeloX, minVeloX, maxVeloY, minVeloY
+	
+			local function destroyRunAnimations()
+				for _,v in pairs(strafingLocomotionMap) do
+					if v.track then
+						v.track:Stop()
+						v.track:Destroy()
+						v.track = nil
+					end
+				end
+				for _,v in pairs(fallbackLocomotionMap) do
+					if v.track then
+						v.track:Stop()
+						v.track:Destroy()
+						v.track = nil
+					end
+				end
+				cachedRunningSpeed = 0
+			end
+	
+			local function resetVelocityBounds(velo)
+				minVeloX = 0
+				maxVeloX = 0
+				minVeloY = 0
+				maxVeloY = 0
+			end
+	
+			local function updateVelocityBounds(velo)
+				if velo then 
+					if velo.x > maxVeloX then maxVeloX = velo.x end
+					if velo.y > maxVeloY then maxVeloY = velo.y end
+					if velo.x < minVeloX then minVeloX = velo.x end
+					if velo.y < minVeloY then minVeloY = velo.y end
+				end
+			end
+	
+			local function checkVelocityBounds(velo)
+				if maxVeloX == 0 or minVeloX == 0 or maxVeloY == 0 or minVeloY == 0 then
+					if locomotionMap == strafingLocomotionMap then
+						warn("Strafe blending disabled.  Not all quadrants of motion represented.")
+					end
+					locomotionMap = fallbackLocomotionMap
+				else
+					locomotionMap = strafingLocomotionMap
+				end
+			end
+	
+			local function setupWalkAnimation(anim, animName, transitionTime, humanoid)
+				resetVelocityBounds()
+				-- check to see if we need to blend a walk/run animation
+				for n,v in pairs(locomotionMap) do
+					v.track = humanoid:LoadAnimation(animTable[n][1].anim)
+					v.track.Priority = Enum.AnimationPriority.Core
+					updateVelocityBounds(v.lv)
+				end
+				checkVelocityBounds()
+			end
+	
+			local function switchToAnim(anim, animName, transitionTime, humanoid)
+				-- switch animation		
+				if (anim ~= currentAnimInstance) then
+	
+					if (currentAnimTrack ~= nil) then
+						currentAnimTrack:Stop(transitionTime)
+						currentAnimTrack:Destroy()
+					end
+					if (currentAnimKeyframeHandler ~= nil) then
+						currentAnimKeyframeHandler:disconnect()
+					end
+	
+	
+					currentAnimSpeed = 1.0
+	
+					currentAnim = animName
+					currentAnimInstance = anim	-- nil in the case of locomotion
+	
+					if animName == "walk" then
+						setupWalkAnimation(anim, animName, transitionTime, humanoid)
+					else
+						destroyRunAnimations()
+						-- load it to the humanoid; get AnimationTrack
+						currentAnimTrack = humanoid:LoadAnimation(anim)
+						currentAnimTrack.Priority = Enum.AnimationPriority.Core
+	
+						currentAnimTrack:Play(transitionTime)	
+	
+						-- set up keyframe name triggers
+						currentAnimKeyframeHandler = currentAnimTrack.KeyframeReached:connect(keyFrameReachedFunc)
+					end
+				end
+			end
+	
+			function playAnimation(animName, transitionTime, humanoid)
+				local idx = rollAnimation(animName)
+				local anim = animTable[animName][idx].anim
+	
+				switchToAnim(anim, animName, transitionTime, humanoid)
+				currentlyPlayingEmote = false
+			end
+	
+			function playEmote(emoteAnim, transitionTime, humanoid)
+				switchToAnim(emoteAnim, emoteAnim.Name, transitionTime, humanoid)
+				currentlyPlayingEmote = true
+			end
+	
+			-------------------------------------------------------------------------------------------
+			-------------------------------------------------------------------------------------------
+	
+			local toolAnimName = ""
+			local toolAnimTrack = nil
+			local toolAnimInstance = nil
+			local currentToolAnimKeyframeHandler = nil
+	
+			function toolKeyFrameReachedFunc(frameName)
+				if (frameName == "End") then
+					playToolAnimation(toolAnimName, 0.0, Humanoid)
+				end
+			end
+	
+	
+			function playToolAnimation(animName, transitionTime, humanoid, priority)
+				local idx = rollAnimation(animName)
+				local anim = animTable[animName][idx].anim
+	
+				if (toolAnimInstance ~= anim) then
+	
+					if (toolAnimTrack ~= nil) then
+						toolAnimTrack:Stop()
+						toolAnimTrack:Destroy()
+						transitionTime = 0
+					end
+	
+					-- load it to the humanoid; get AnimationTrack
+					toolAnimTrack = humanoid:LoadAnimation(anim)
+					if priority then
+						toolAnimTrack.Priority = priority
+					end
+	
+					-- play the animation
+					toolAnimTrack:Play(transitionTime)
+					toolAnimName = animName
+					toolAnimInstance = anim
+	
+					currentToolAnimKeyframeHandler = toolAnimTrack.KeyframeReached:connect(toolKeyFrameReachedFunc)
+				end
+			end
+	
+			function stopToolAnimations()
+				local oldAnim = toolAnimName
+	
+				if (currentToolAnimKeyframeHandler ~= nil) then
+					currentToolAnimKeyframeHandler:disconnect()
+				end
+	
+				toolAnimName = ""
+				toolAnimInstance = nil
+				if (toolAnimTrack ~= nil) then
+					toolAnimTrack:Stop()
+					toolAnimTrack:Destroy()
+					toolAnimTrack = nil
+				end
+	
+				return oldAnim
+			end
+	
+			-------------------------------------------------------------------------------------------
+			-------------------------------------------------------------------------------------------
+			-- STATE CHANGE HANDLERS
+	
+			function onRunning(speed)
+				local movedDuringEmote = currentlyPlayingEmote and Humanoid.MoveDirection == Vector3.new(0, 0, 0)
+				local speedThreshold = movedDuringEmote and Humanoid.WalkSpeed or 0.75
+				humanoidSpeed = speed
+				if speed > speedThreshold then
+					playAnimation("walk", 0.2, Humanoid)
+					if pose ~= "Running" then
+						pose = "Running"
+						updateVelocity(0) -- Force velocity update in response to state change
+					end
+				else
+					if emoteNames[currentAnim] == nil and not currentlyPlayingEmote then
+						playAnimation("idle", 0.2, Humanoid)
+						pose = "Standing"
+					end
+				end
+	
+	
+	
+			end
+	
+			function onDied()
+				pose = "Dead"
+			end
+	
+			function onJumping()
+				playAnimation("jump", 0.1, Humanoid)
+				jumpAnimTime = jumpAnimDuration
+				pose = "Jumping"
+			end
+	
+			function onClimbing(speed)
+				local scale = 5.0
+				playAnimation("climb", 0.1, Humanoid)
+				setAnimationSpeed(speed / scale)
+				pose = "Climbing"
+			end
+	
+			function onGettingUp()
+				pose = "GettingUp"
+			end
+	
+			function onFreeFall()
+				if (jumpAnimTime <= 0) then
+					playAnimation("fall", fallTransitionTime, Humanoid)
+				end
+				pose = "FreeFall"
+			end
+	
+			function onFallingDown()
+				pose = "FallingDown"
+			end
+	
+			function onSeated()
+				pose = "Seated"
+			end
+	
+			function onPlatformStanding()
+				pose = "PlatformStanding"
+			end
+	
+			-------------------------------------------------------------------------------------------
+			-------------------------------------------------------------------------------------------
+	
+			function onSwimming(speed)
+				if speed > 0 then
+					pose = "Running"
+				else
+					pose = "Standing"
+				end
+			end
+	
+			function animateTool()
+				if (toolAnim == "None") then
+					playToolAnimation("toolnone", toolTransitionTime, Humanoid, Enum.AnimationPriority.Idle)
+					return
+				end
+	
+				if (toolAnim == "Slash") then
+					playToolAnimation("toolslash", 0, Humanoid, Enum.AnimationPriority.Action)
+					return
+				end
+	
+				if (toolAnim == "Lunge") then
+					playToolAnimation("toollunge", 0, Humanoid, Enum.AnimationPriority.Action)
+					return
+				end
+			end
+	
+			function getToolAnim(tool)
+				for _, c in ipairs(tool:GetChildren()) do
+					if c.Name == "toolanim" and c.className == "StringValue" then
+						return c
+					end
+				end
+				return nil
+			end
+	
+			local lastTick = 0
+	
+			function stepAnimate(currentTime)
+				local amplitude = 1
+				local frequency = 1
+				local deltaTime = currentTime - lastTick
+				lastTick = currentTime
+	
+				local climbFudge = 0
+				local setAngles = false
+	
+				if (jumpAnimTime > 0) then
+					jumpAnimTime = jumpAnimTime - deltaTime
+				end
+	
+				if (pose == "FreeFall" and jumpAnimTime <= 0) then
+					playAnimation("fall", fallTransitionTime, Humanoid)
+				elseif (pose == "Seated") then
+					playAnimation("sit", 0.5, Humanoid)
+					return
+				elseif (pose == "Running") then
+					playAnimation("walk", 0.2, Humanoid)
+					updateVelocity(currentTime)
+				elseif (pose == "Dead" or pose == "GettingUp" or pose == "FallingDown" or pose == "Seated" or pose == "PlatformStanding") then
+					stopAllAnimations()
+					amplitude = 0.1
+					frequency = 1
+					setAngles = true
+				end
+	
+				-- Tool Animation handling
+				local tool = Character:FindFirstChildOfClass("Tool")
+				if tool and tool:FindFirstChild("Handle") then
+					local animStringValueObject = getToolAnim(tool)
+	
+					if animStringValueObject then
+						toolAnim = animStringValueObject.Value
+						-- message recieved, delete StringValue
+						animStringValueObject.Parent = nil
+						toolAnimTime = currentTime + .3
+					end
+	
+					if currentTime > toolAnimTime then
+						toolAnimTime = 0
+						toolAnim = "None"
+					end
+	
+					animateTool()
+				else
+					stopToolAnimations()
+					toolAnim = "None"
+					toolAnimInstance = nil
+					toolAnimTime = 0
+				end
+			end
+	
+	
+			-- connect events
+			Humanoid.Died:connect(onDied)
+			Humanoid.Running:connect(onRunning)
+			Humanoid.Jumping:connect(onJumping)
+			Humanoid.Climbing:connect(onClimbing)
+			Humanoid.GettingUp:connect(onGettingUp)
+			Humanoid.FreeFalling:connect(onFreeFall)
+			Humanoid.FallingDown:connect(onFallingDown)
+			Humanoid.Seated:connect(onSeated)
+			Humanoid.PlatformStanding:connect(onPlatformStanding)
+			Humanoid.Swimming:connect(onSwimming)
+	
+			-- setup emote chat hook
+			game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+				local emote = ""
+				if (string.sub(msg, 1, 3) == "/e ") then
+					emote = string.sub(msg, 4)
+				elseif (string.sub(msg, 1, 7) == "/emote ") then
+					emote = string.sub(msg, 8)
+				end
+	
+				if (pose == "Standing" and emoteNames[emote] ~= nil) then
+					playAnimation(emote, EMOTE_TRANSITION_TIME, Humanoid)
+				end
+			end)
+	
+			-- emote bindable hook
+			script:WaitForChild("PlayEmote").OnInvoke = function(emote)
+				-- Only play emotes when idling
+				if pose ~= "Standing" then
+					return
+				end
+	
+				if emoteNames[emote] ~= nil then
+					-- Default emotes
+					playAnimation(emote, EMOTE_TRANSITION_TIME, Humanoid)
+	
+					return true, currentAnimTrack
+				elseif typeof(emote) == "Instance" and emote:IsA("Animation") then
+					-- Non-default emotes
+					playEmote(emote, EMOTE_TRANSITION_TIME, Humanoid)
+	
+					return true, currentAnimTrack
+				end
+	
+				-- Return false to indicate that the emote could not be played
+				return false
+			end
+	
+			if Character.Parent ~= nil then
+				-- initialize to idle
+				playAnimation("idle", 0.1, Humanoid)
+				pose = "Standing"
+			end
+	
+			-- loop to handle timed state transitions and tool animations
+			task.spawn(function()
+				while Character.Parent ~= nil do
+					local _, currentGameTime = wait(0.1)
+					stepAnimate(currentGameTime)
+				end
+			end)
+		end
+	
+		RunCustomAnimation(plr.Character)
+	
+		plr.CharacterAdded:Connect(function(Char)
+			RunCustomAnimation(Char)
+		end)
+	end)
+end
+coroutine.wrap(GBXI_fake_script)()
